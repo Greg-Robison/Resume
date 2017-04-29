@@ -1,0 +1,38 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif, helvetica;
+}
+
+img {
+  max-width: 100%;
+}
+.header{
+  background: linear-gradient(#353C4E, #3A597B);
+}
+.heading{
+  color: white;
+}
+.myPic{
+  height: 220px;
+  width: auto;
+  float: left;
+  margin-top: -75;
+  border-style: outset;
+  border: solid grey 2px;
+}
+.column{
+  color: white;
+  background: linear-gradient(#353C4E, #3A597B);
+}
